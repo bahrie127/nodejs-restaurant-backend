@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vouchers",
+  "info": {
+    "singularName": "voucher",
+    "pluralName": "vouchers",
+    "displayName": "voucher"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "expiredDate": {
+      "type": "datetime"
+    },
+    "isEnabled": {
+      "type": "boolean"
+    }
+  }
+}
